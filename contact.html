@@ -8,12 +8,13 @@
     <title>Portfolio | Rogelio Zavala</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Vesper+Libre&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <!-- Nav Bar Code from bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between navBar">
         <a class="navbar-brand" href="#"><strong>Rogelio Zavala</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,48 +32,57 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
                 </li>
-                
+
             </ul>
         </div>
     </nav>
-    <!-- Card content -->
-    <div class="card">
-        <h5 class="card-header">Contact</h5>
-        <div class="card-body">
-            <!-- User Input Name -->
-         
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Card content -->
+                <div class="card contactCard">
+                    <h5 class="card-header">Contact</h5>
+                    <div class="card-body">
+                        <!-- User Input Name -->
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Default"
+                                aria-describedby="inputGroup-sizing-default">
+
+                        </div>
+                        <!-- User Input Email -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Default"
+                                aria-describedby="inputGroup-sizing-default">
+
+                        </div>
+                        <!-- User Input message -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-default">Message</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Default"
+                                aria-describedby="inputGroup-sizing-default">
+
+                        </div>
+                        <a href="#" class="btn btn-primary">Submit</a>
+                    </div>
+
+
                 </div>
-                <input type="text" class="form-control" aria-label="Default"
-                    aria-describedby="inputGroup-sizing-default">
+
 
             </div>
-            <!-- User Input Email -->           
-            <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Default"
-                        aria-describedby="inputGroup-sizing-default">
-    
-                </div>
-                <!-- User Input message -->
-                <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="inputGroup-sizing-default">Message</span>
-                        </div>
-                        <input type="text" class="form-control" aria-label="Default"
-                            aria-describedby="inputGroup-sizing-default">
-        
-                    </div>
-            <a href="#" class="btn btn-primary">Submit</a>
         </div>
 
-
     </div>
-
 
     <!-- JavaScript code from Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
