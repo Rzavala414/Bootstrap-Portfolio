@@ -3,12 +3,15 @@ body{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_pcI1tIKqbU8HKuSJCtw7cweAZNVTyDR1h7ZNWi2C_VJQXGBx");
     height:800px;
 }
-h1{
-    display:flex;
-    justify-content: center;
+h3{
+   color:whitesmoke;
 }
-.navBars{
+h5{
+    text-decoration: underline;
+}
+.navBar{
     height:45px;
+    
 }
 /* class for cards in portfolio file */
 .spaceEvenly{
@@ -26,6 +29,9 @@ h1{
    
 }
 
+.message{
+    height:150px;
+}
 .contactCard {
    
 }
